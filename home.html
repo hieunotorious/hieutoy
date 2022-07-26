@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <title>hieucollection</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+     
+    <div class="holder">
+      <nav class="navbar bg-brown flex">
+        <div class="container flex">
+          <div class="toggler-and-category bg-brown text-white flex">
+            <button type="button" class="btn navbar-show-btn text-white">
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="category-list">
+              <span>Category</span>
+              <button type="button" class="btn category-toggler-btn text-white">
+                <i class="fas fa-circle-arrow-down"></i>
+              </button>
+            </div>
+
+            <ul id="side-navbar" class="bg-white text-uppercase">
+              <button type="button" class="btn navbar-hide-btn text-dark">
+                <i class="fas fa-times"></i>
+              </button>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="featured.html">featured</a></li>
+              <li><a href="product.html">Products</a></li>
+              
+              
+            </ul>
+
+            <ul id="category-list-items" class="bg-white">
+              <li><a href="#">MCFARLANE</a></li>
+              <li><a href="#">MARVEL LEGEND</a></li>
+              <li><a href="#">SHF</a></li>
+              <li><a href="#">FIGMA</a></li>
+              <li><a href="#">MATTEL</a></li>
+              <li><a href="#">STATUE</a></li>
+              <li><a href="#">JZAWARES</a></li>
+            </ul>
+          </div>
+          
+          <div class="navbar-collapse flex">
+            <ul class="navbar-nav text-uppercase">
+              <li class="nav-item">
+            
+                <a href=home.html class="nav-link active-link">
+                  <span class="nav-link-text">home</span>
+                   
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="about.html" class="nav-link">
+                  <span class="nav-link-text">about</span>
+                </a>
+              </li>
+              
+              <li class="nav-item">
+                <a href=featured.html class="nav-link">
+                  <span class="nav-link-text">featured</span>
+                  
+                </a>
+          
+              </li>
+              <li class="nav-item">
+                <a href="product.html" class="nav-link">
+                  <span class="nav-link-text">Products</span>
+                  <span class="dropdown-icon">
+                    <i class="fas fa-chevron-down"></i>
+                  </span>
+                </a>
+              </li>
+             
+              
+  
+               
+            </ul>
+            <div class="account-info">
+              <a href="#" class="btn text-white">
+                 <i class="fas fa-shopping-basket"></i>
+              </a>
+              <a href="#" class="btn text-white">
+                               <i class="fas fa-person" ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <header class="header bg-light-brown flex" id="home">
+        <div class="container">
+          <div class="header-content grid text-center">
+            <div class="header-left">
+              <h1>HIEUCOLLECTION</h1>
+              <p class="text">
+                Action figures, Statue, Collectibles, and More!
+              </p>
+              <a href="#" class="btn-header text-white bg-brown">shop now</a>
+            </div>
+
+            <div class="header-right">
+              <img src="image/hieu2.jpg" />
+            </div>
+            <img src="image/hieu3.jpg" class="header-shape" />
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section
+          id="new-products"
+          class="new-products py bg-light-grey-color-shade"
+        >
+          <div class="container">
+            <div class="section-title text-center">
+              <h2>top new products</h2>
+              <p class="lead">In stock.</p>
+              <div class="line"></div>
+            </div>
+
+            <div class="new-products-content grid">
+              <div class="new-product-item">
+                <div class="image">
+                  <img src="image/NS.jpg" alt="" />
+                  
+                </div>
+                <div class="info">
+                  <div class="ratings text-grey">
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                    <span>(10 Reviews)</span>
+                  </div>
+                  <div class="price">
+                    <span class="new text-brown">$ 24.99</span>
+                  </div>
+                  <p class="name">
+                    Spider-Man Marvel Legends Series 6-inch Symbiote Action
+                    Figure Toy
+                  </p>
+                 
+                </div>
+              </div>
+
+              <div class="new-product-item">
+                <div class="image">
+                  <img src="image/NB.jpg" alt="" />
+                 
+                </div>
+                <div class="info">
+                  <div class="ratings text-grey">
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                    <span>(20 Reviews)</span>
+                  </div>
+                  <div class="price">
+                    <span class="new text-brown">$ 19.99</span>
+                  </div>
+                  <p class="name">
+                    McFarlane Toys DC Batman: The Batman (Movie)
+                  </p>
+                  
+                </div>
+              </div>
+
+              <div class="new-product-item">
+                <div class="image">
+                  <img src="image/NJ.jpg" alt="" />
+                  
+                </div>
+                <div class="info">
+                  <div class="ratings text-grey">
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                    <span>(15 Reviews)</span>
+                  </div>
+                  <div class="price">
+                    <span class="new text-brown">$ 34.99</span>
+                  </div>
+                  <p class="name">
+                    WWE Ultimate Edition Wave 10 John Cena Action Figure 6 in
+                    with Interchangeable Entrance JacketLanternExtra Head and
+                    Swappable Hands
+                  </p>
+                  
+                </div>
+              </div>
+
+              <div class="new-product-item">
+                <div class="image">
+                  <img src="image/ND.jpg" alt="" />
+                  
+                </div>
+                <div class="info">
+                  <div class="ratings text-grey">
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                    <span>(50 Reviews)</span>
+                  </div>
+                   <div class="price">
+                    <span class="new text-brown">$ 80.00</span>
+                  </div>
+                  <p class="name">
+                    Tamashi Nations - Deadpool - Bandai Spirits S.H.Figuarts
+                  </p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          id="sale-products"
+          class="sale-products py bg-light-grey-color-shade"
+        >
+          <div class="container">
+            <div class="section-title text-center">
+              <h2>top sale products</h2>
+              <p class="lead">In stock.</p>
+              <div class="line"></div>
+            </div>
+
+            <div class="sale-products-content grid">
+              <div class="sale-product-item">
+                <div class="image">
+                  <img src="image/goku.jpg" alt="" />
+                  <span
+                    class="badge bg-brown text-white text-center text-uppercase"
+                    >sale</span
+                  >
+                </div>
+                <div class="info">
+                  <div class="ratings text-grey">
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                    <span>(90 Reviews)</span>
+                  </div>
+                  <div class="price">
+                    <span class="old text-grey">$ 50.00</span>
+                    <span class="new text-brown">$ 35.00</span>
+                  </div>
+                  <p class="name">
+                    Tamashii Nations S.H. Figuarts Ultra Instinct Son Goku Dragon Ball Super
+                  </p>
+                  
+                </div>
+              </div>
+
+              <div class="sale-product-item">
+                <div class="image">
+                  <img src="image/loki.jpg" alt="" />
+                  <span
+                    class="badge bg-brown text-white text-center text-uppercase"
+                    >sale</span
+                  >
+                </div>
+                <div class="info">
+                  <div class="ratings text-grey">
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                    <span>(5 Reviews)</span>
+                  </div>
+                  <div class="price">
+                    <span class="old text-grey">$ 24.99</span>
+                    <span class="new text-brown">$ 22.00</span>
+                  </div>
+                  <p class="name">
+                    Marvel Legends Series Loki Agent of Asgard 6-inch Retro
+                  </p>
+                  
+                </div>
+              </div>
+
+              <div class="sale-product-item">
+                <div class="image">
+                  <img src="image/randy.jpg" alt="" />
+                  <span
+                    class="badge bg-brown text-white text-center text-uppercase"
+                    >sale</span
+                  >
+                </div>
+                <div class="info">
+                  <div class="ratings text-grey">
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                    <span>(18 Reviews)</span>
+                  </div>
+                  <div class="price">
+                    <span class="old text-grey">$ 21.00</span>
+                    <span class="new text-brown">$ 15.00</span>
+                  </div>
+                  <p class="name">
+                    WWE Randy Orton Elite Collection Action Figure, Series # 90
+                  </p>
+                  
+                </div>
+              </div>
+
+              <div class="sale-product-item">
+                <div class="image">
+                  <img src="image/batman.jpg" alt="" />
+                  <span
+                    class="badge bg-brown text-white text-center text-uppercase"
+                    >sale</span
+                  >
+                </div>
+                <div class="info">
+                  <div class="ratings text-grey">
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                    <span>(30 Reviews)</span>
+                  </div>
+                  <div class="price">
+                    <span class="old text-grey">$ 35.00</span>
+                    <span class="new text-brown">$ 30.00</span>
+                  </div>
+                  <p class="name">
+                    McFarlane Multiverse The Batman from Batman Movie 12" Deluxe
+                    Figure
+                  </p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="category py bg-light-brown" id="category">
+        
+          <div class="container">
+            <div class="section-title text-center">
+              <h2> Product Images</h2>
+             
+              
+            </div>
+          <div class="container">
+            <div class="category-content grid">
+              <div class="category-item">
+                <img src="image/stargirl.jpg" />
+                <div class="category-badge bg-white text-dark flex">
+                    StarGirl
+                </div>
+              </div>
+              <div class="category-item">
+                <img src="image/2.jpg" />
+                <div class="category-badge bg-white text-dark flex">
+                  Spiderman 2099
+                </div>
+              </div>
+              <div class="category-item">
+                <img src="image/3.jpg" />
+                <div class="category-badge bg-white text-dark flex">
+                  Songoku Super saiyan 4
+                </div>
+              </div>
+              <div class="category-item">
+                <img src="image/4.jpg" />
+                <div class="category-badge bg-white text-dark flex">
+                  Songoku Raised on Earth
+                </div>
+              </div>
+              <div class="category-item">
+                <img src="image/5.jpg" />
+                <div class="category-badge bg-white text-dark flex"> Gojo Satoru</div>
+              </div>
+              <div class="category-item">
+                <img src="image/psy.jpg" />
+                <div class="category-badge bg-white text-dark flex">
+                  Psylocke
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="featured-deals bg-light-grey-color-shade py"
+          id="featured-deals"
+        >
+          <div class="container">
+            <div class="section-title text-center">
+              <h2>featured Pre-orders</h2>
+              <p class="lead">Featured Pre-Orders List</p>
+              <div class="line"></div>
+            </div>
+
+            <div class="featured-deals-content grid">
+              <div class="featured-deals-item">
+                <div class="image">
+                  <img src="image/Pgoku.jpg" />
+                </div>
+                <div class="info bg-white">
+                  <div class="ratings text-grey">
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                  </div>
+                  <div class="price">
+                    <span class="new text-brown">$ 59.99</span>
+                  </div>
+                  <p class="name">
+                    Dragon Ball Super S.H.Figuarts Super Saiyan God Super Saiyan
+                    Gogeta
+                  </p>
+                  
+                </div>
+              </div>
+
+              <div class="featured-deals-item">
+                <div class="image">
+                  <img src="image/Pbat.jpg" />
+                </div>
+                <div class="info bg-white">
+                  <div class="ratings text-grey">
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                  </div>
+                  <div class="price">
+                    <span class="new text-brown">$ 174.99</span>
+                  </div>
+                  <p class="name">
+                    The Batman 1/10 Art Scale Limited Edition Statue
+                  </p>
+                  
+                </div>
+              </div>
+
+              <div class="featured-deals-item">
+                <div class="image">
+                  <img src="image/Pbroly.jpg" />
+                </div>
+                <div class="info bg-white">
+                  <div class="ratings text-grey">
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                  </div>
+                  <div class="price">
+                    <span class="new text-brown">$ 83.99</span>
+                  </div>
+                  <p class="name">
+                    Dragon Ball Super S.H.Figuarts Super Saiyan Broly (Full
+                    Power)
+                  </p>
+                  
+                </div>
+              </div>
+
+              <div class="featured-deals-item">
+                <div class="image">
+                  <img src="image/spider.jpg" />
+                </div>
+                <div class="info bg-white">
+                  <div class="ratings text-grey">
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                  </div>
+                  <div class="price">
+                    <span class="new text-brown">$ 94.99</span>
+                  </div>
+                  <p class="name">Avengers: Endgame S.H.Figuarts Iron Spider (Final Battle Edition)</p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+   
+
+        <section
+          class="latest-news bg-light-grey-color-shade py"
+          id="latest-news"
+        >
+          <div class="container">
+            <div class="section-title text-center">
+              <h2>latest news</h2>
+              <p class="lead">Information about upcoming prodcuts.</p>
+              <div class="line"></div>
+            </div>
+
+            <div class="latest-news-content grid">
+              <article class="latest-news-item bg-white">
+                <div class="top">
+                  <img src="image/MIS.jpg" />
+                  <div class="author">
+                    <img src="image/MIS2.jpg" />
+                  </div>
+                </div>
+                <div class="body">
+                  <span class="date">Posted January 20, 2022</span>
+                  <h3 class="title text-uppercase">
+                    New Marvel Legends Iron Spider
+                  </h3>
+                  <p class="text">
+                    We have a single figure preview from Hasbro Pulse showing
+                    off
+                    <span>...</span>
+                  </p>
+                </div>
+                <div class="bottom" k>
+                  <a href="#" class="text-uppercase">read more</a>
+                </div>
+              </article>
+
+              <article class="latest-news-item bg-white">
+                <div class="top">
+                  <img src="image/MDL.jpg" />
+                  <div class="author">
+                    <img src="image/MDL2.jpg" />
+                  </div>
+                </div>
+                <div class="body">
+                  <span class="date">Posted August 2, 2022</span>
+                  <h3 class="title text-uppercase">
+                    Monkey. D. Luffy joins the ultimate action figure series!
+                  </h3>
+                  <p class="text">
+                    Clothing covers the upper body's joints, for an appearance
+                    so natural you'd mistake it for a sculpture!
+                    <span>...</span>
+                  </p>
+                </div>
+                <div class="bottom" k>
+                  <a href="#" class="text-uppercase">read more</a>
+                </div>
+              </article>
+
+              <article class="latest-news-item bg-white">
+                <div class="top">
+                  <img src="image/m.jpg" />
+                  <div class="author">
+                    <img src="image/m2.jpg" />
+                  </div>
+                </div>
+                <div class="body">
+                  <span class="date">Brand NEW line coming in 2022</span>
+                  <h3 class="title text-uppercase">PAGE PUNCHERS</h3>
+                  <p class="text">
+                    Comic & figure for only $9.99. Check out this SNEAK PEEK
+                    from Todd McFarlane of what’s coming this year!<span
+                      >...</span
+                    >
+                  </p>
+                </div>
+                <div class="bottom" k>
+                  <a href="#" class="text-uppercase">read more</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="feedback py bg-light-grey-color-shade" id="feedback">
+          <div class="container">
+            <div class="section-title text-center">
+              <h2>Feedback</h2>
+              <p class="lead">Your thought about us.</p>
+              <div class="line"></div>
+            </div>
+
+            <div class="feedback-inner">
+              <div class="feedback-container grid">
+                <div class="feedback-item bg-white text-center" data-id="1">
+                  <img src="image/f22.jpg" class="quote-icon" />
+                  <p class="text text-grey">
+                    Absolutely the best Batman action figure I’ve ever seen or
+                    owned. Arrived in perfect condition and you can’t beat the
+                    price at $20 for the quality you get.
+                  </p>
+                  <div class="client">
+                    <img src="image/f1.jpg" />
+                  </div>
+                </div>
+
+                <div
+                  class="feedback-item bg-white text-center"
+                  data-id="2"
+                  id="feedback-display"
+                >
+                  <img src="image/f11.jpg" class="quote-icon" />
+                  <p class="text text-grey">
+                    Japanese. Definitely worth the price compared to the chinese
+                    fakes. Tamashii nation's is legit
+                  </p>
+                  <div class="client">
+                    <img src="image/f2.jpg" />
+                  </div>
+                </div>
+
+                <div class="feedback-item bg-white text-center" data-id="3">
+                  <img src="image/f33.jpg" class="quote-icon" />
+                  <p class="text text-grey">
+                    WARNING: Small parts may be generated. Not for children
+                    under 3 years.
+                  </p>
+                  <div class="client">
+                    <img src="image/f3.jpg" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="feedback-btns flex">
+              <button class="feedback-btn feedback-active-btn"></button>
+              <button class="feedback-btn"></button>
+              <button class="feedback-btn"></button>
+            </div>
+          </div>
+        </section>
+      </main>
+ <section class = "newsletter py bg-light-grey-color-shade" id = "newsletter">
+                <div class = "container">
+                    <div class = "section-title text-center">
+                        <h2>COMMENT</h2>
+                        <p class = "lead">Would you like to tell us about??</p>
+                        <div class = "line"></div>
+                    </div>
+
+                    <div class = "newsletter-content">
+                        <form>
+                            <div class = "input-group flex">
+                                <input type = "email" class = "form-control bg-light-grey">
+                                <button type = "submit" class = "btn bg-dark text-white text-uppercase">subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+      <footer class="footer bg-light-brown" id="footer">
+        <div class="container">
+          <div class="footer-content py grid text-center">
+            <div class="footer-item">
+              <h3>hieucollection.com</h3>
+              <p class="text">
+                Thank you for shopping with us your order is on the way. Have a
+                wonderful day!
+              </p>
+              <ul class="social-links flex">
+                <li>
+                  <a href="https://www.facebook.com/profile.php?id=100004517205574" class="flex"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/hieucollection___/" class="flex"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/MNgcHiu2" class="flex"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.tiktok.com/@hieunotorious" class="flex"><i class="fab fa-tiktok"></i></a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer-item">
+              <h3>Contact Us</h3>
+              <p class="text">102 Nguyen Trai, BMT, VietNam</p>
+              <p class="text">Phone: (+84) 912590467</p>
+              <p class="text">Email: hieumn2001@gmail.com</p>
+            </div>
+
+            <div class="footer-item">
+              <h3>Store at</h3>
+              <ul>
+                <li class="text"><a href="#">Amazon</a></li>
+                <li class="text"><a href="#">Walmart</a></li>
+                <li class="text"><a href="#">Target</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-item">
+              <h3>Our Profile</h3>
+              <ul>
+                <li class="text">
+                  <a href="https://www.instagram.com/hieucollection___/">instagram: hieucollection__</a>
+                </li>
+                <li class="text">
+                  <a href="#">Email: hieucollection31@gmail.com</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-end bg-dark">
+          <div class="container grid">
+            <p class="text text-white text-center">
+              &copy; Copyright 2022. All Right Reserved. Designed and Developed
+              by Ma Ngoc Hieu
+            </p>
+            <div class="flex payment">
+              <img src="image/pay_3.png" />
+              <img src="image/pay_4.png" />
+              <img src="image/pay_5.png" />
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src = "script.js"></script>
+  </body>
+</html>

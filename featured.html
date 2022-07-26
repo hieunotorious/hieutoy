@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hieucollection</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="holder">
+      <nav class="navbar bg-brown flex">
+        <div class="container flex">
+          <div class="toggler-and-category bg-brown text-white flex">
+            <button type="button" class="btn navbar-show-btn text-white">
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="category-list">
+              <span>Category</span>
+              <button type="button" class="btn category-toggler-btn text-white">
+                <i class="fas fa-circle-arrow-down"></i>
+              </button>
+            </div>
+
+            <ul id="side-navbar" class="bg-white text-uppercase">
+              <button type="button" class="btn navbar-hide-btn text-dark">
+                <i class="fas fa-times"></i>
+              </button>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="featured.html">Featured</a></li>
+              <li><a href="product.html">Products</a></li>
+            </ul>
+
+            <ul id="category-list-items" class="bg-white">
+              <li><a href="#">MCFARLANE</a></li>
+              <li><a href="#">MARVEL LEGEND</a></li>
+              <li><a href="#">SHF</a></li>
+              <li><a href="#">FIGMA</a></li>
+              <li><a href="#">MATTEL</a></li>
+              <li><a href="#">STATUE</a></li>
+              <li><a href="#">JZAWARES</a></li>
+            </ul>
+          </div>
+
+          <div class="navbar-collapse flex">
+            <ul class="navbar-nav text-uppercase">
+              <li class="nav-item">
+                <a href="home.html" class="nav-link active-link">
+                  <span class="nav-link-text">home</span>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="about.html" class="nav-link">
+                  <span class="nav-link-text">about</span>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="featured.html" class="nav-link">
+                  <span class="nav-link-text">featured</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="product.html" class="nav-link">
+                  <span class="nav-link-text">products</span>
+                  <span class="dropdown-icon">
+                    <i class="fas fa-chevron-down"></i>
+                    <ul class="menu">
+                      <li>
+                        <label for="" class="first">New Arrivals</label>
+                      </li>
+                      <li>
+                        <label for="" class="second">Sale Products</label>
+                      </li>
+                    </ul>
+                  </span>
+                </a>
+              </li>
+            </ul>
+
+            <div class="account-info">
+              <a href="#" class="btn text-white">
+                <i class="fas fa-shopping-basket"></i>
+              </a>
+              <a href="#" class="btn text-white">
+                <i class="fas fa-person"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <section
+        class="featured-deals bg-light-grey-color-shade py"
+        id="featured-deals"
+      >
+        <div class="container">
+          <div class="section-title text-center">
+            <h2>featured Pre-orders</h2>
+            <p class="lead">Upcoming Products</p>
+            <div class="line"></div>
+          </div>
+
+          <div class="featured-deals-content grid">
+            <div class="featured-deals-item">
+              <div class="image">
+                <img src="image/Pgoku.jpg" />
+              </div>
+              <div class="info bg-white">
+                <div class="ratings text-grey">
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                </div>
+                <div class="price">
+                  <span class="new text-brown">$ 59.99</span>
+                </div>
+                <p class="name">
+                  Dragon Ball Super S.H.Figuarts Super Saiyan God Super Saiyan
+                  Gogeta
+                </p>
+              </div>
+            </div>
+
+            <div class="featured-deals-item">
+              <div class="image">
+                <img src="image/saiyan4.jpg" />
+              </div>
+              <div class="info bg-white">
+                <div class="ratings text-grey">
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                </div>
+                <div class="price">
+                  <span class="new text-brown">$ 79.99</span>
+                </div>
+                <p class="name">
+                  Dragon Ball GT S.H.Figuarts Super Saiyan 4 Goku
+                </p>
+              </div>
+            </div>
+
+            <div class="featured-deals-item">
+              <div class="image">
+                <img src="image/Pbroly.jpg" />
+              </div>
+              <div class="info bg-white">
+                <div class="ratings text-grey">
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                </div>
+                <div class="price">
+                  <span class="new text-brown">$ 83.99</span>
+                </div>
+                <p class="name">
+                  Dragon Ball Super S.H.Figuarts Super Saiyan Broly (Full Power)
+                </p>
+              </div>
+            </div>
+
+            <div class="featured-deals-item">
+              <div class="image">
+                <img src="image/saiyan3.jpg" />
+              </div>
+              <div class="info bg-white">
+                <div class="ratings text-grey">
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                </div>
+                <div class="price">
+                  <span class="new text-brown">$ 36.99</span>
+                </div>
+                <p class="name">
+                  Dragon Ball Z S.H.Figuarts Super Saiyan 3 Goku (Reissue)
+                </p>
+              </div>
+            </div>
+
+            <div class="featured-deals-item">
+              <div class="image">
+                <img src="image/Pbat.jpg" />
+              </div>
+              <div class="info bg-white">
+                <div class="ratings text-grey">
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                </div>
+                <div class="price">
+                  <span class="new text-brown">$ 174.99</span>
+                </div>
+                <p class="name">
+                  The Batman 1/10 Art Scale Limited Edition Statue
+                </p>
+              </div>
+            </div>
+
+            <div class="featured-deals-item">
+              <div class="image">
+                <img src="image/ki.jpg" />
+              </div>
+              <div class="info bg-white">
+                <div class="ratings text-grey">
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                </div>
+                <div class="price">
+                  <span class="new text-brown">$ 89.99</span>
+                </div>
+                <p class="name">
+                  Demon Slayer: Kimetsu no Yaiba Figuarts mini Entertainment
+                  District Arc Set
+                </p>
+              </div>
+            </div>
+
+            <div class="featured-deals-item">
+              <div class="image">
+                <img src="image/es.jpg" />
+              </div>
+              <div class="info bg-white">
+                <div class="ratings text-grey">
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                </div>
+                <div class="price">
+                  <span class="new text-brown">$ 26.99</span>
+                </div>
+                <p class="name">
+                  One-Punch Man Espresto Hellish Blizzard Figure
+                </p>
+              </div>
+            </div>
+
+            <div class="featured-deals-item">
+              <div class="image">
+                <img src="image/fairy.jpg" />
+              </div>
+              <div class="info bg-white">
+                <div class="ratings text-grey">
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                </div>
+                <div class="price">
+                  <span class="new text-brown">$ 354.99</span>
+                </div>
+                <p class="name">
+                  Fairy Tail Erza Scarlet the Samurai (Shikkoku Ver.) 1/6 Scale
+                  Figure
+                </p>
+              </div>
+            </div>
+
+            <div class="featured-deals-item">
+              <div class="image">
+                <img src="image/sasuke.jpg" />
+              </div>
+              <div class="info bg-white">
+                <div class="ratings text-grey">
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                </div>
+                <div class="price">
+                  <span class="new text-brown">$ 59.99</span>
+                </div>
+                <p class="name">
+                  Naruto: Shippuden S.H.Figuarts Sasuke Uchiha (He Who Bears All
+                  Hatred)
+                </p>
+              </div>
+            </div>
+
+            <div class="featured-deals-item">
+              <div class="image">
+                <img src="image/naruto.jpg" />
+              </div>
+              <div class="info bg-white">
+                <div class="ratings text-grey">
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                </div>
+                <div class="price">
+                  <span class="new text-brown">$ 34.99</span>
+                </div>
+                <p class="name">
+                  Naruto: Shippuden S.H.Figuarts Naruto Uzumaki (The Jinchuuriki
+                  Entrusted with Hope)
+                </p>
+              </div>
+            </div>
+
+            <div class="featured-deals-item">
+              <div class="image">
+                <img src="image/sakura.jpg" />
+              </div>
+              <div class="info bg-white">
+                <div class="ratings text-grey">
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                </div>
+                <div class="price">
+                  <span class="new text-brown">$ 54.99</span>
+                </div>
+                <p class="name">
+                  Naruto: Shippuden S.H.Figuarts Sakura Haruno (Inheritor of
+                  Tsunade's Indominable Will)
+                </p>
+              </div>
+            </div>
+
+            <div class="featured-deals-item">
+              <div class="image">
+                <img src="image/naru.jpg" />
+              </div>
+              <div class="info bg-white">
+                <div class="ratings text-grey">
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                </div>
+                <div class="price">
+                  <span class="new text-brown">$ 34.99</span>
+                </div>
+                <p class="name">
+                  Naruto: Shippuden S.H.Figuarts Naruto Uzumaki (Best Selection
+                  New Packaging Ver.)
+                </p>
+              </div>
+            </div>
+
+            <div class="featured-deals-item">
+              <div class="image">
+                <img src="image/quinn.jpg" />
+              </div>
+              <div class="info bg-white">
+                <div class="ratings text-grey">
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                </div>
+                <div class="price">
+                  <span class="new text-brown">$ 69.99</span>
+                </div>
+                <p class="name">The Suicide Squad S.H.Figuarts Harley Quinn</p>
+              </div>
+            </div>
+
+            <div class="featured-deals-item">
+              <div class="image">
+                <img src="image/thor.jpg" />
+              </div>
+              <div class="info bg-white">
+                <div class="ratings text-grey">
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                </div>
+                <div class="price">
+                  <span class="new text-brown">$ 83.99</span>
+                </div>
+                <p class="name">
+                  Thor: Love and Thunder S.H.Figuarts Mighty Thor
+                </p>
+              </div>
+            </div>
+
+            <div class="featured-deals-item">
+              <div class="image">
+                <img src="image/witch.jpg" />
+              </div>
+              <div class="info bg-white">
+                <div class="ratings text-grey">
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                </div>
+                <div class="price">
+                  <span class="new text-brown">$ 119.99</span>
+                </div>
+                <p class="name">
+                  Avengers: Infinity War S.H.Figuarts Scarlet Witch Exclusive
+                </p>
+              </div>
+            </div>
+
+            <div class="featured-deals-item">
+              <div class="image">
+                <img src="image/hquinn.jpg" />
+              </div>
+              <div class="info bg-white">
+                <div class="ratings text-grey">
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                </div>
+                <div class="price">
+                  <span class="new text-brown">$ 59.99</span>
+                </div>
+                <p class="name">
+                  Avengers: Infinity War S.H.Figuarts Scarlet Witch Exclusive
+                </p>
+              </div>
+            </div>
+
+            <div class="featured-deals-item">
+              <div class="image">
+                <img src="image/megumi.jpg" />
+              </div>
+              <div class="info bg-white">
+                <div class="ratings text-grey">
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                </div>
+                <div class="price">
+                  <span class="new text-brown">$ 54.99</span>
+                </div>
+                <p class="name">Jujutsu Kaisen S.H.Figuarts Megumi Fushiguro</p>
+              </div>
+            </div>
+
+            <div class="featured-deals-item">
+              <div class="image">
+                <img src="image/nobara.jpg" />
+              </div>
+              <div class="info bg-white">
+                <div class="ratings text-grey">
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                </div>
+                <div class="price">
+                  <span class="new text-brown">$ 61.99</span>
+                </div>
+                <p class="name">Jujutsu Kaisen S.H.Figuarts Nobara Kugisaki</p>
+              </div>
+            </div>
+
+            <div class="featured-deals-item">
+              <div class="image">
+                <img src="image/yuji.jpg" />
+              </div>
+              <div class="info bg-white">
+                <div class="ratings text-grey">
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                </div>
+                <div class="price">
+                  <span class="new text-brown">$ 61.99</span>
+                </div>
+                <p class="name">Jujutsu Kaisen S.H.Figuarts Yuji Itadori</p>
+              </div>
+            </div>
+
+            <div class="featured-deals-item">
+              <div class="image">
+                <img src="image/gojo.jpg" />
+              </div>
+              <div class="info bg-white">
+                <div class="ratings text-grey">
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                </div>
+                <div class="price">
+                  <span class="new text-brown">$ 75.99</span>
+                </div>
+                <p class="name">Jujutsu Kaisen S.H.Figuarts Gojo Satoru</p>
+              </div>
+            </div>
+
+            <div class="featured-deals-item">
+              <div class="image">
+                <img src="image/thorlove.jpg" />
+              </div>
+              <div class="info bg-white">
+                <div class="ratings text-grey">
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                </div>
+                <div class="price">
+                  <span class="new text-brown">$ 83.99</span>
+                </div>
+                <p class="name">Thor: Love and Thunder S.H.Figuarts Thor</p>
+              </div>
+            </div>
+
+            <div class="featured-deals-item">
+              <div class="image">
+                <img src="image/bat2022.jpg" />
+              </div>
+              <div class="info bg-white">
+                <div class="ratings text-grey">
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                </div>
+                <div class="price">
+                  <span class="new text-brown">$ 94.99</span>
+                </div>
+                <p class="name">The Batman S.H.Figuarts Batman</p>
+              </div>
+            </div>
+
+            <div class="featured-deals-item">
+              <div class="image">
+                <img src="image/bat1989.jpg" />
+              </div>
+              <div class="info bg-white">
+                <div class="ratings text-grey">
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                </div>
+                <div class="price">
+                  <span class="new text-brown">$ 71.99</span>
+                </div>
+                <p class="name">Batman (1989) S.H.Figuarts Batman</p>
+              </div>
+            </div>
+
+            <div class="featured-deals-item">
+              <div class="image">
+                <img src="image/thorbeo.jpg" />
+              </div>
+              <div class="info bg-white">
+                <div class="ratings text-grey">
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-brown"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                  <i class="fas fa-star text-light-grey"></i>
+                </div>
+                <div class="price">
+                  <span class="new text-brown">$ 119.99</span>
+                </div>
+                <p class="name">
+                  Avengers: Endgame S.H.Figuarts Thor Exclusive
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer bg-light-brown" id="footer">
+        <div class="container">
+          <div class="footer-content py grid text-center">
+            <div class="footer-item">
+              <h3>hieucollection.com</h3>
+              <p class="text">
+                Thank you for shopping with us your order is on the way. Have a
+                wonderful day!
+              </p>
+              <ul class="social-links flex">
+                <li>
+                  <a
+                    href="https://www.facebook.com/profile.php?id=100004517205574"
+                    class="flex"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/hieucollection___/"
+                    class="flex"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/MNgcHiu2" class="flex"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.tiktok.com/@hieunotorious" class="flex"
+                    ><i class="fab fa-tiktok"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer-item">
+              <h3>Contact Us</h3>
+              <p class="text">102 Nguyen Trai, BMT, VietNam</p>
+              <p class="text">Phone: (+84) 912590467</p>
+              <p class="text">Email: hieumn2001@gmail.com</p>
+            </div>
+
+            <div class="footer-item">
+              <h3>Store at</h3>
+              <ul>
+                <li class="text"><a href="#">Amazon</a></li>
+                <li class="text"><a href="#">Walmart</a></li>
+                <li class="text"><a href="#">Target</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-item">
+              <h3>Our Profile</h3>
+              <ul>
+                <li class="text">
+                  <a href="https://www.instagram.com/hieucollection___/"
+                    >instagram: hieucollection__</a
+                  >
+                </li>
+                <li class="text">
+                  <a href="#">Email: hieucollection31@gmail.com</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-end bg-dark">
+          <div class="container grid">
+            <p class="text text-white text-center">
+              &copy; Copyright 2022. All Right Reserved. Designed and Developed
+              by Ma Ngoc Hieu
+            </p>
+            <div class="flex payment">
+              <img src="image/pay_3.png" />
+              <img src="image/pay_4.png" />
+              <img src="image/pay_5.png" />
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
